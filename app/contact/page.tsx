@@ -49,10 +49,10 @@ This inquiry was sent from the Ermi Tour & Travel website contact form.
   }
 
   const handleWhatsAppContact = () => {
-    const phoneNumber = "251912345678" // Replace with actual WhatsApp number
+    const phoneNumber = "+251 91 355 3316" // Replace with actual WhatsApp number
     const message =
       "Hello! I'm interested in booking a tour with Ermi Tour & Travel. Could you please provide more information?"
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://www.facebook.com/dagnug`
     window.open(whatsappUrl, "_blank")
   }
 
@@ -60,19 +60,19 @@ This inquiry was sent from the Ermi Tour & Travel website contact form.
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      details: ["+251 11 123 4567", "+251 91 234 5678"],
+      details: ["+251 91 355 3316"],
       description: "Available 24/7 for emergencies",
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      details: ["info@ermitours.com", "bookings@ermitours.com"], // Updated email to match Ermi Tours
+      details: ["info@ermitours.com"], // Updated email to match Ermi Tours
       description: "We respond within 24 hours",
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Office Address",
-      details: ["Bole Road, Addis Ababa", "Ethiopia, East Africa"],
+      details: ["Ambo Road, Holeta", "Ethiopia"],
       description: "Visit us Monday - Saturday",
     },
     {
@@ -178,7 +178,7 @@ This inquiry was sent from the Ermi Tour & Travel website contact form.
 
                     <div className="space-y-2">
                       <Label htmlFor="phone">Phone Number</Label>
-                      <Input id="phone" name="phone" type="tel" placeholder="+1 (555) 123-4567" />
+                      <Input id="phone" name="phone" type="tel" placeholder="+251 91 234 5678" />
                     </div>
 
                     <div className="space-y-2">
@@ -227,7 +227,7 @@ This inquiry was sent from the Ermi Tour & Travel website contact form.
                         onClick={handleWhatsAppContact}
                       >
                         <MessageCircle className="w-4 h-4 mr-2" />
-                        Contact via WhatsApp
+                        Contact via Facebook
                       </Button>
                     </div>
 
@@ -280,15 +280,15 @@ This inquiry was sent from the Ermi Tour & Travel website contact form.
                     <h3 className="font-semibold text-lg mb-4">Why Choose Us?</h3>
                     <div className="grid grid-cols-2 gap-4 text-sm">
                       <div className="text-center">
-                        <div className="text-2xl font-bold mb-1">500+</div>
+                        <div className="text-2xl font-bold mb-1">100+</div>
                         <div className="opacity-90">Happy Travelers</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-2xl font-bold mb-1">8+</div>
+                        <div className="text-2xl font-bold mb-1">3+</div>
                         <div className="opacity-90">Years Experience</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-2xl font-bold mb-1">15+</div>
+                        <div className="text-2xl font-bold mb-1">10+</div>
                         <div className="opacity-90">Tour Packages</div>
                       </div>
                       <div className="text-center">
@@ -309,7 +309,7 @@ This inquiry was sent from the Ermi Tour & Travel website contact form.
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Visit Our Office</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Located in the heart of Addis Ababa, our office is easily accessible and we welcome visitors during
+                Located in the heart of Holeta, our office is easily accessible and we welcome visitors during
                 business hours
               </p>
             </div>
@@ -320,7 +320,7 @@ This inquiry was sent from the Ermi Tour & Travel website contact form.
                   <MapPin className="w-16 h-16 text-primary mx-auto" />
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Ermi Tour & Travel</h3> {/* Updated company name */}
-                    <p className="text-muted-foreground">Bole Road, Addis Ababa, Ethiopia</p>
+                    <p className="text-muted-foreground">Ambo Road, Holeta, Ethiopia</p>
                     <Badge variant="secondary" className="mt-2">
                       Interactive Map Coming Soon
                     </Badge>

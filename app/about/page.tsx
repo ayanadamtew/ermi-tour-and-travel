@@ -216,7 +216,7 @@ export default function AboutPage() {
                     <h3 className="font-bold text-xl md:text-2xl">Ermias Gudisa</h3>
                     <p className="text-orange-600 font-semibold text-base md:text-lg">Founder & Lead Guide</p>
                     <p className="text-muted-foreground text-sm md:text-base mt-3 leading-relaxed">
-                      With over 10 years of experience in Ethiopian tourism, Ermias founded Ermi Tour & Travel with a
+                      With over 5 years of experience in Ethiopian tourism, Ermias founded Ermi Tour & Travel with a
                       passion for showcasing Ethiopia's rich culture, stunning landscapes, and warm hospitality. His
                       deep knowledge of local customs and hidden gems ensures every journey is authentic and
                       unforgettable.

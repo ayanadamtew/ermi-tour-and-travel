@@ -18,7 +18,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "Ethiopian Tours & Travel - Explore Ethiopia with Comfort & Trust",
+  title: "Ermi Tours & Travel - Explore Ethiopia with Comfort & Trust",
   description:
     "Discover the beauty of Ethiopia with our professional tour and travel services. Cultural trips, historical sites, nature adventures, and city tours.",
     generator: 'v0.app'

@@ -62,7 +62,7 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-sm">
                 <Phone className="w-4 h-4 text-orange-500" />
-                <span className="text-muted-foreground">+251 911 123 456</span>
+                <span className="text-muted-foreground">+251 91 355 3316</span>
               </div>
               <div className="flex items-center space-x-2 text-sm">
                 <Mail className="w-4 h-4 text-orange-500" />
@@ -71,9 +71,9 @@ export function Footer() {
               <div className="flex items-start space-x-2 text-sm">
                 <MapPin className="w-4 h-4 text-orange-500 mt-0.5" />
                 <span className="text-muted-foreground">
-                  Addis Ababa, Ethiopia
+                  Holeta, Ethiopia
                   <br />
-                  Bole Road, Near Airport
+                  Ambo Road
                 </span>
               </div>
             </div>
@@ -89,7 +89,7 @@ export function Footer() {
                 asChild
                 className="hover:bg-orange-50 hover:border-orange-200 bg-transparent"
               >
-                <Link href="#" aria-label="Facebook">
+                <Link href="https://www.facebook.com/dagnug" aria-label="Facebook">
                   <Facebook className="w-4 h-4" />
                 </Link>
               </Button>
